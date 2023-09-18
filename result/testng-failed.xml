@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="3" parallel="tests" name="Failed suite [vendor-portal]" guice-stage="DEVELOPMENT">
+  <test thread-count="3" parallel="tests" name="user-john(failed)">
+    <parameter name="testDataPath" value="test-data/vendor-portal/john.json"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.asif.tests.vendorportal.VendorPortalTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="setPageObjects"/>
+          <include name="setDriver"/>
+          <include name="logoutTest"/>
+          <include name="loginTest"/>
+          <include name="setupConfig"/>
+          <include name="dashboardTest"/>
+        </methods>
+      </class> <!-- com.asif.tests.vendorportal.VendorPortalTest -->
+    </classes>
+  </test> <!-- user-john(failed) -->
+  <test thread-count="3" parallel="tests" name="user-sam(failed)">
+    <parameter name="testDataPath" value="test-data/vendor-portal/sam.json"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="com.asif.tests.vendorportal.VendorPortalTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="setPageObjects"/>
+          <include name="logoutTest"/>
+          <include name="setDriver"/>
+          <include name="loginTest"/>
+          <include name="setupConfig"/>
+          <include name="dashboardTest"/>
+        </methods>
+      </class> <!-- com.asif.tests.vendorportal.VendorPortalTest -->
+    </classes>
+  </test> <!-- user-sam(failed) -->
+  <test thread-count="3" parallel="tests" name="user-mike(failed)">
+    <parameter name="testDataPath" value="test-data/vendor-portal/mike.json"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="com.asif.tests.vendorportal.VendorPortalTest">
+        <methods>
+          <include name="quitDriver"/>
+          <include name="setPageObjects"/>
+          <include name="logoutTest"/>
+          <include name="setDriver"/>
+          <include name="loginTest"/>
+          <include name="setupConfig"/>
+          <include name="dashboardTest"/>
+        </methods>
+      </class> <!-- com.asif.tests.vendorportal.VendorPortalTest -->
+    </classes>
+  </test> <!-- user-mike(failed) -->
+</suite> <!-- Failed suite [vendor-portal] -->

@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="9" passed="9" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-16T16:30:19 GMT" name="vendor-portal" finished-at="2023-09-16T16:30:29 GMT" duration-ms="10566">
+    <groups>
+    </groups>
+    <test started-at="2023-09-16T16:30:19 GMT" name="user-john" finished-at="2023-09-16T16:30:27 GMT" duration-ms="8189">
+      <class name="com.asif.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setupConfig()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@78a773fd]" started-at="2023-09-16T16:30:19 GMT" name="setupConfig" finished-at="2023-09-16T16:30:19 GMT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupConfig -->
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@78a773fd]" started-at="2023-09-16T16:30:19 GMT" name="setDriver" finished-at="2023-09-16T16:30:20 GMT" duration-ms="1437" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1efe439d]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@78a773fd]" started-at="2023-09-16T16:30:20 GMT" name="setPageObjects" finished-at="2023-09-16T16:30:20 GMT" depends-on-methods="com.asif.tests.AbstractTest.setDriver" duration-ms="33" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/john.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@78a773fd]" started-at="2023-09-16T16:30:20 GMT" name="loginTest" finished-at="2023-09-16T16:30:22 GMT" duration-ms="2084" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@78a773fd]" started-at="2023-09-16T16:30:22 GMT" name="dashboardTest" finished-at="2023-09-16T16:30:25 GMT" depends-on-methods="com.asif.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="3014" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@78a773fd]" started-at="2023-09-16T16:30:25 GMT" name="logoutTest" finished-at="2023-09-16T16:30:27 GMT" depends-on-methods="com.asif.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="1495" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@78a773fd]" started-at="2023-09-16T16:30:27 GMT" name="quitDriver" finished-at="2023-09-16T16:30:27 GMT" duration-ms="95" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.asif.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-john -->
+    <test started-at="2023-09-16T16:30:19 GMT" name="user-mike" finished-at="2023-09-16T16:30:28 GMT" duration-ms="9447">
+      <class name="com.asif.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@127a7a2e]" started-at="2023-09-16T16:30:19 GMT" name="setDriver" finished-at="2023-09-16T16:30:20 GMT" duration-ms="1590" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@2e48362c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@127a7a2e]" started-at="2023-09-16T16:30:20 GMT" name="setPageObjects" finished-at="2023-09-16T16:30:20 GMT" depends-on-methods="com.asif.tests.AbstractTest.setDriver" duration-ms="11" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/mike.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@127a7a2e]" started-at="2023-09-16T16:30:20 GMT" name="loginTest" finished-at="2023-09-16T16:30:22 GMT" duration-ms="2020" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@127a7a2e]" started-at="2023-09-16T16:30:22 GMT" name="dashboardTest" finished-at="2023-09-16T16:30:26 GMT" depends-on-methods="com.asif.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="3182" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@127a7a2e]" started-at="2023-09-16T16:30:26 GMT" name="logoutTest" finished-at="2023-09-16T16:30:28 GMT" depends-on-methods="com.asif.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="2557" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@127a7a2e]" started-at="2023-09-16T16:30:28 GMT" name="quitDriver" finished-at="2023-09-16T16:30:28 GMT" duration-ms="79" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.asif.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-mike -->
+    <test started-at="2023-09-16T16:30:19 GMT" name="user-sam" finished-at="2023-09-16T16:30:29 GMT" duration-ms="10566">
+      <class name="com.asif.tests.vendorportal.VendorPortalTest">
+        <test-method is-config="true" signature="setDriver(org.testng.ITestContext)[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@4bd31064]" started-at="2023-09-16T16:30:19 GMT" name="setDriver" finished-at="2023-09-16T16:30:20 GMT" duration-ms="1266" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@46b61c56]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriver -->
+        <test-method is-config="true" signature="setPageObjects(java.lang.String)[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@4bd31064]" started-at="2023-09-16T16:30:20 GMT" name="setPageObjects" finished-at="2023-09-16T16:30:20 GMT" depends-on-methods="com.asif.tests.AbstractTest.setDriver" duration-ms="221" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[test-data/vendor-portal/sam.json]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setPageObjects -->
+        <test-method signature="loginTest()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@4bd31064]" started-at="2023-09-16T16:30:20 GMT" name="loginTest" finished-at="2023-09-16T16:30:22 GMT" duration-ms="2100" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginTest -->
+        <test-method signature="dashboardTest()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@4bd31064]" started-at="2023-09-16T16:30:22 GMT" name="dashboardTest" finished-at="2023-09-16T16:30:25 GMT" depends-on-methods="com.asif.tests.vendorportal.VendorPortalTest.loginTest" duration-ms="2173" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- dashboardTest -->
+        <test-method signature="logoutTest()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@4bd31064]" started-at="2023-09-16T16:30:25 GMT" name="logoutTest" finished-at="2023-09-16T16:30:29 GMT" depends-on-methods="com.asif.tests.vendorportal.VendorPortalTest.dashboardTest" duration-ms="4718" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logoutTest -->
+        <test-method is-config="true" signature="quitDriver()[pri:0, instance:com.asif.tests.vendorportal.VendorPortalTest@4bd31064]" started-at="2023-09-16T16:30:29 GMT" name="quitDriver" finished-at="2023-09-16T16:30:29 GMT" duration-ms="73" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- quitDriver -->
+      </class> <!-- com.asif.tests.vendorportal.VendorPortalTest -->
+    </test> <!-- user-sam -->
+  </suite> <!-- vendor-portal -->
+</testng-results>
